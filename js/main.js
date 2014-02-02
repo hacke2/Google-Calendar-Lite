@@ -5,7 +5,7 @@ var NL = (function(){
 			if ('sessionStorage' in window && sessionStorage['language']){
 
 				return sessionStorage['language'];				
-				
+			//test
 				}
 
 			var NL =  navigator.language?navigator.language:'en';
